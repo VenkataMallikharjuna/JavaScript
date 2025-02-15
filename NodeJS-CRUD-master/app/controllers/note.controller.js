@@ -66,7 +66,7 @@ exports.delete = function(req, res) {
         if(err) {
             res.status(500).send({message: "Could not delete note with id " + req.params.id});
         } else {
-            res.send({message: "Note deleted successfully!"})
+            res.send({message: "Note deleted successfully!!!!!!!!"})
         }
     });
 };
