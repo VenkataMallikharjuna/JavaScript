@@ -21,7 +21,7 @@ mongoose.connect(dbConfig.url, {
 });
 
 mongoose.connection.on('error', function() {
-    console.log('Could not connect to the database. Exiting now...');
+    console.log('Could not connect to the database. Exiting now...BYE');
     process.exit();
 });
 mongoose.connection.once('open', function() {
